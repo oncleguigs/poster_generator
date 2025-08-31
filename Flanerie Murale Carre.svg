@@ -1,0 +1,41 @@
+<svg width="1024" height="1024" viewBox="0 0 450 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    Logo for Flanerie Murale (Square version)
+    It is recommended to convert the text elements below to paths using a vector graphics editor 
+    (like Inkscape or Adobe Illustrator) before using this logo in production. 
+    This ensures the font appears correctly everywhere, regardless of whether it's installed.
+  -->
+  <defs>
+    <!-- Import a modern, clean font from Google Fonts -->
+    <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap');</style>
+  </defs>
+  <style>
+    .text-main {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      fill: #1a1a1a;
+      text-anchor: middle;
+      letter-spacing: 2px;
+    }
+    .hanger {
+      stroke: #1a1a1a;
+      stroke-width: 4;
+      stroke-linecap: round;
+    }
+  </style>
+
+  <!-- Stylized poster hanger element -->
+  <g class="hanger-group">
+    <line class="hanger" x1="50" y1="140" x2="400" y2="140" />
+    <line class="hanger" x1="100" y1="140" x2="100" y2="170" stroke-width="2.5"/>
+    <line class="hanger" x1="350" y1="140" x2="350" y2="170" stroke-width="2.5"/>
+  </g>
+
+  <!-- Boutique Name -->
+  <g class="text-group">
+    <text x="225" y="245" class="text-main">FLANERIE</text>
+    <text x="225" y="305" class="text-main">MURALE</text>
+  </g>
+  
+</svg>
